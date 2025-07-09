@@ -1,0 +1,794 @@
+08-07-2025 16:20:25.387 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+08-07-2025 16:20:25.390 [Gauge] [INFO] Initializing specs cache with 1 specs
+08-07-2025 16:20:25.390 [Gauge] [DEBUG] Adding specs from C:\Users\sevda\OneDrive\Masaüstü\formdogrulamaotomasyon\specs\form_dogrulama.spec
+08-07-2025 16:20:25.390 [Gauge] [INFO] Initializing steps cache with 1 steps
+08-07-2025 16:20:25.390 [Gauge] [INFO] Gauge daemon initialized and listening on port: 56279
+08-07-2025 16:20:25.393 [Gauge] [DEBUG] Watching directory: C:\Users\sevda\OneDrive\Masaüstü\formdogrulamaotomasyon\specs
+08-07-2025 16:20:25.393 [Gauge] [DEBUG] Found 1 files
+09-07-2025 08:51:07.701 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+09-07-2025 08:51:07.734 [Gauge] [INFO] Initializing specs cache with 1 specs
+09-07-2025 08:51:07.734 [Gauge] [DEBUG] Adding specs from C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 08:51:07.734 [Gauge] [INFO] Initializing steps cache with 1 steps
+09-07-2025 08:51:07.734 [Gauge] [INFO] Gauge daemon initialized and listening on port: 54918
+09-07-2025 08:51:07.736 [Gauge] [DEBUG] Watching directory: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs
+09-07-2025 08:51:07.737 [Gauge] [DEBUG] Found 1 files
+09-07-2025 08:51:12.831 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Cinsiyet olarak '<gender>' seçilir"}
+09-07-2025 08:51:12.831 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Cinsiyet olarak '{}' seçilir"  parameterizedStepValue:"Cinsiyet olarak '<gender>' seçilir"  parameters:"gender"}}
+09-07-2025 08:51:12.832 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"'<phone>' telefon numarası girilir"}
+09-07-2025 08:51:12.832 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"'{}' telefon numarası girilir"  parameterizedStepValue:"'<phone>' telefon numarası girilir"  parameters:"phone"}}
+09-07-2025 08:51:12.832 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Başarı popup'ı kontrol edilir"}
+09-07-2025 08:51:12.832 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Başarı popup'ı kontrol edilir"  parameterizedStepValue:"Başarı popup'ı kontrol edilir"}}
+09-07-2025 08:51:12.840 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Ahmet\" adı girilir"}
+09-07-2025 08:51:12.840 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<Ahmet> adı girilir"  parameters:"Ahmet"}}
+09-07-2025 08:51:12.849 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Yılmaz\" soyadı girilir"}
+09-07-2025 08:51:12.849 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} soyadı girilir"  parameterizedStepValue:"<Yılmaz> soyadı girilir"  parameters:"Yılmaz"}}
+09-07-2025 08:51:12.859 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ahmet@\" e-posta girilir"}
+09-07-2025 08:51:12.859 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<ahmet@> e-posta girilir"  parameters:"ahmet@"}}
+09-07-2025 08:51:12.869 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Ayşe\" adı girilir"}
+09-07-2025 08:51:12.869 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<Ayşe> adı girilir"  parameters:"Ayşe"}}
+09-07-2025 08:51:12.885 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ayse.kaya@example.com\" e-posta girilir"}
+09-07-2025 08:51:12.885 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<ayse.kaya@example.com> e-posta girilir"  parameters:"ayse.kaya@example.com"}}
+09-07-2025 08:51:12.903 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Cinsiyet olarak \"Female\" seçilir"}
+09-07-2025 08:51:12.903 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Cinsiyet olarak {} seçilir"  parameterizedStepValue:"Cinsiyet olarak <Female> seçilir"  parameters:"Female"}}
+09-07-2025 08:51:12.912 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"5551234567\" telefon numarası girilir"}
+09-07-2025 08:51:12.912 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} telefon numarası girilir"  parameterizedStepValue:"<5551234567> telefon numarası girilir"  parameters:"5551234567"}}
+09-07-2025 08:56:11.896 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<Kaya> soyadı girilir"}
+09-07-2025 08:56:11.896 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} soyadı girilir"  parameterizedStepValue:"<Kaya> soyadı girilir"  parameters:"Kaya"}}
+09-07-2025 09:00:38.807 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<ahmet@> e-posta girilir"}
+09-07-2025 09:00:38.807 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<ahmet@> e-posta girilir"  parameters:"ahmet@"}}
+09-07-2025 09:03:39.996 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"step1"}
+09-07-2025 09:03:39.996 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"step1"  parameterizedStepValue:"step1"}}
+09-07-2025 09:03:40.017 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Concept Heading"}
+09-07-2025 09:03:40.017 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Concept Heading"  parameterizedStepValue:"Concept Heading"}}
+09-07-2025 09:03:40.018 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"step2"}
+09-07-2025 09:03:40.018 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"step2"  parameterizedStepValue:"step2"}}
+09-07-2025 09:05:36.936 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* step1"}
+09-07-2025 09:05:36.937 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* step1"  parameterizedStepValue:"* step1"}}
+09-07-2025 09:05:36.949 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* step2"}
+09-07-2025 09:05:36.951 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* step2"  parameterizedStepValue:"* step2"}}
+09-07-2025 09:13:54.243 [Gauge] [DEBUG] Concept file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.cpt
+09-07-2025 09:14:50.631 [Gauge] [DEBUG] Watching directory: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\concept
+09-07-2025 09:14:50.631 [Gauge] [DEBUG] Found 0 files
+09-07-2025 09:14:54.650 [Gauge] [DEBUG] Concept file removed: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.cpt
+09-07-2025 09:14:54.650 [Gauge] [DEBUG] Concept file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\concept\form_dogrulama.cpt
+09-07-2025 09:16:23.983 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ahmet@example.com\" e-posta girilir"}
+09-07-2025 09:16:23.983 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<ahmet@example.com> e-posta girilir"  parameters:"ahmet@example.com"}}
+09-07-2025 09:16:23.984 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Cinsiyet olarak \"Male\" seçilir"}
+09-07-2025 09:16:23.984 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Cinsiyet olarak {} seçilir"  parameterizedStepValue:"Cinsiyet olarak <Male> seçilir"  parameters:"Male"}}
+09-07-2025 09:16:24.009 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Geçerli bilgilerle form doldurma ve gönderme"}
+09-07-2025 09:16:24.009 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Geçerli bilgilerle form doldurma ve gönderme"  parameterizedStepValue:"Geçerli bilgilerle form doldurma ve gönderme"}}
+09-07-2025 09:16:24.009 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Geçersiz e-posta ile form gönderme"}
+09-07-2025 09:16:24.009 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Geçersiz e-posta ile form gönderme"  parameterizedStepValue:"Geçersiz e-posta ile form gönderme"}}
+09-07-2025 09:16:24.009 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"5311234567\" telefon numarası girilir"}
+09-07-2025 09:16:24.009 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} telefon numarası girilir"  parameterizedStepValue:"<5311234567> telefon numarası girilir"  parameters:"5311234567"}}
+09-07-2025 09:16:24.033 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Mehmet\" adı girilir"}
+09-07-2025 09:16:24.033 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<Mehmet> adı girilir"  parameters:"Mehmet"}}
+09-07-2025 09:16:24.041 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"mehmet@\" e-posta girilir"}
+09-07-2025 09:16:24.042 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<mehmet@> e-posta girilir"  parameters:"mehmet@"}}
+09-07-2025 09:16:27.986 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"https://demoqa.com/automation-practice-form\" adresine gidilir"}
+09-07-2025 09:16:27.987 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} adresine gidilir"  parameterizedStepValue:"* <https://demoqa.com/automation-practice-form> adresine gidilir"  parameters:"https://demoqa.com/automation-practice-form"}}
+09-07-2025 09:16:27.989 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"Ahmet\" adı girilir"}
+09-07-2025 09:16:27.989 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} adı girilir"  parameterizedStepValue:"* <Ahmet> adı girilir"  parameters:"Ahmet"}}
+09-07-2025 09:16:27.991 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"Kaya\" soyadı girilir"}
+09-07-2025 09:16:27.993 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} soyadı girilir"  parameterizedStepValue:"* <Kaya> soyadı girilir"  parameters:"Kaya"}}
+09-07-2025 09:16:27.994 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"ahmet@example.com\" e-posta girilir"}
+09-07-2025 09:16:27.994 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} e-posta girilir"  parameterizedStepValue:"* <ahmet@example.com> e-posta girilir"  parameters:"ahmet@example.com"}}
+09-07-2025 09:16:27.994 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* Cinsiyet olarak \"Male\" seçilir"}
+09-07-2025 09:16:27.994 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* Cinsiyet olarak {} seçilir"  parameterizedStepValue:"* Cinsiyet olarak <Male> seçilir"  parameters:"Male"}}
+09-07-2025 09:16:27.994 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"5311234567\" telefon numarası girilir"}
+09-07-2025 09:16:27.995 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} telefon numarası girilir"  parameterizedStepValue:"* <5311234567> telefon numarası girilir"  parameters:"5311234567"}}
+09-07-2025 09:16:27.995 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* Submit butonuna tıklanır"}
+09-07-2025 09:16:27.995 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* Submit butonuna tıklanır"  parameterizedStepValue:"* Submit butonuna tıklanır"}}
+09-07-2025 09:16:27.995 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* Başarı popup'ı kontrol edilir"}
+09-07-2025 09:16:27.995 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* Başarı popup'ı kontrol edilir"  parameterizedStepValue:"* Başarı popup'ı kontrol edilir"}}
+09-07-2025 09:16:27.996 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"Mehmet\" adı girilir"}
+09-07-2025 09:16:27.996 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} adı girilir"  parameterizedStepValue:"* <Mehmet> adı girilir"  parameters:"Mehmet"}}
+09-07-2025 09:16:27.996 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"Yılmaz\" soyadı girilir"}
+09-07-2025 09:16:27.996 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} soyadı girilir"  parameterizedStepValue:"* <Yılmaz> soyadı girilir"  parameters:"Yılmaz"}}
+09-07-2025 09:16:27.996 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"mehmet@\" e-posta girilir"}
+09-07-2025 09:16:27.996 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} e-posta girilir"  parameterizedStepValue:"* <mehmet@> e-posta girilir"  parameters:"mehmet@"}}
+09-07-2025 09:16:27.997 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* E-posta hata mesajı kontrol edilir"}
+09-07-2025 09:16:27.997 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* E-posta hata mesajı kontrol edilir"  parameterizedStepValue:"* E-posta hata mesajı kontrol edilir"}}
+09-07-2025 09:18:21.254 [Gauge] [DEBUG] Concept file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\concept\form_dogrulama.cpt
+09-07-2025 09:18:21.255 [Gauge] [DEBUG] Concept file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\concept\form_dogrulama.cpt
+09-07-2025 09:18:34.131 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<https://demoqa.com/automation-practice-form> adresine gidilir"}
+09-07-2025 09:18:34.131 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adresine gidilir"  parameterizedStepValue:"<https://demoqa.com/automation-practice-form> adresine gidilir"  parameters:"https://demoqa.com/automation-practice-form"}}
+09-07-2025 09:31:03.598 [Gauge] [INFO] Initializing concepts cache with 2 concepts
+09-07-2025 09:31:03.598 [Gauge] [DEBUG] Adding concepts from C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\concept\form_dogrulama.cpt
+09-07-2025 09:31:03.598 [Gauge] [DEBUG] Adding concepts from C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\concept\form_dogrulama.cpt
+09-07-2025 09:31:03.600 [Gauge] [INFO] Initializing specs cache with 1 specs
+09-07-2025 09:31:03.600 [Gauge] [DEBUG] Adding specs from C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 09:31:03.600 [Gauge] [INFO] Initializing steps cache with 2 steps
+09-07-2025 09:31:03.600 [Gauge] [INFO] Gauge daemon initialized and listening on port: 55546
+09-07-2025 09:31:03.600 [Gauge] [DEBUG] Watching directory: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs
+09-07-2025 09:31:03.601 [Gauge] [DEBUG] Found 2 files
+09-07-2025 09:31:03.601 [Gauge] [DEBUG] Watching directory: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\concept
+09-07-2025 09:31:03.601 [Gauge] [DEBUG] Found 1 files
+09-07-2025 09:31:45.753 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ahmet@\" e-posta girilir"}
+09-07-2025 09:31:45.753 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<ahmet@> e-posta girilir"  parameters:"ahmet@"}}
+09-07-2025 09:31:45.956 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"'<url>' adresine gidilir"}
+09-07-2025 09:31:45.956 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"'{}' adresine gidilir"  parameterizedStepValue:"'<url>' adresine gidilir"  parameters:"url"}}
+09-07-2025 09:31:45.956 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"'<name>' adı girilir"}
+09-07-2025 09:31:45.956 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"'{}' adı girilir"  parameterizedStepValue:"'<name>' adı girilir"  parameters:"name"}}
+09-07-2025 09:31:45.956 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"'<surname>' soyadı girilir"}
+09-07-2025 09:31:45.956 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"'{}' soyadı girilir"  parameterizedStepValue:"'<surname>' soyadı girilir"  parameters:"surname"}}
+09-07-2025 09:31:45.956 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"'<email>' e-posta girilir"}
+09-07-2025 09:31:45.957 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"'{}' e-posta girilir"  parameterizedStepValue:"'<email>' e-posta girilir"  parameters:"email"}}
+09-07-2025 09:31:45.957 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Cinsiyet olarak '<gender>' seçilir"}
+09-07-2025 09:31:45.957 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Cinsiyet olarak '{}' seçilir"  parameterizedStepValue:"Cinsiyet olarak '<gender>' seçilir"  parameters:"gender"}}
+09-07-2025 09:31:45.958 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"'<phone>' telefon numarası girilir"}
+09-07-2025 09:31:45.958 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"'{}' telefon numarası girilir"  parameterizedStepValue:"'<phone>' telefon numarası girilir"  parameters:"phone"}}
+09-07-2025 09:31:45.958 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Submit butonuna tıklanır"}
+09-07-2025 09:31:45.958 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Submit butonuna tıklanır"  parameterizedStepValue:"Submit butonuna tıklanır"}}
+09-07-2025 09:31:45.958 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"E-posta hata mesajı kontrol edilir"}
+09-07-2025 09:31:45.958 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"E-posta hata mesajı kontrol edilir"  parameterizedStepValue:"E-posta hata mesajı kontrol edilir"}}
+09-07-2025 09:31:45.958 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Başarı popup'ı kontrol edilir"}
+09-07-2025 09:31:45.958 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Başarı popup'ı kontrol edilir"  parameterizedStepValue:"Başarı popup'ı kontrol edilir"}}
+09-07-2025 09:31:45.958 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<Kaya> soyadı girilir"}
+09-07-2025 09:31:45.959 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} soyadı girilir"  parameterizedStepValue:"<Kaya> soyadı girilir"  parameters:"Kaya"}}
+09-07-2025 09:31:45.959 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<ahmet@> e-posta girilir"}
+09-07-2025 09:31:45.959 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<ahmet@> e-posta girilir"  parameters:"ahmet@"}}
+09-07-2025 09:31:46.027 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"https://demoqa.com/automation-practice-form\" adresine gidilir"}
+09-07-2025 09:31:46.027 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adresine gidilir"  parameterizedStepValue:"<https://demoqa.com/automation-practice-form> adresine gidilir"  parameters:"https://demoqa.com/automation-practice-form"}}
+09-07-2025 09:31:46.036 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<https://demoqa.com/automation-practice-form> adresine gidilir"}
+09-07-2025 09:31:46.036 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adresine gidilir"  parameterizedStepValue:"<https://demoqa.com/automation-practice-form> adresine gidilir"  parameters:"https://demoqa.com/automation-practice-form"}}
+09-07-2025 09:31:46.037 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Ahmet\" adı girilir"}
+09-07-2025 09:31:46.037 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<Ahmet> adı girilir"  parameters:"Ahmet"}}
+09-07-2025 09:31:46.051 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Geçerli bilgilerle form doldurma ve gönderme"}
+09-07-2025 09:31:46.051 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Geçerli bilgilerle form doldurma ve gönderme"  parameterizedStepValue:"Geçerli bilgilerle form doldurma ve gönderme"}}
+09-07-2025 09:31:46.051 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Geçersiz e-posta ile form gönderme"}
+09-07-2025 09:31:46.051 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Geçersiz e-posta ile form gönderme"  parameterizedStepValue:"Geçersiz e-posta ile form gönderme"}}
+09-07-2025 09:31:46.057 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Yılmaz\" soyadı girilir"}
+09-07-2025 09:31:46.057 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} soyadı girilir"  parameterizedStepValue:"<Yılmaz> soyadı girilir"  parameters:"Yılmaz"}}
+09-07-2025 09:31:46.061 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Ayşe\" adı girilir"}
+09-07-2025 09:31:46.061 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<Ayşe> adı girilir"  parameters:"Ayşe"}}
+09-07-2025 09:31:46.082 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Kaya\" soyadı girilir"}
+09-07-2025 09:31:46.082 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} soyadı girilir"  parameterizedStepValue:"<Kaya> soyadı girilir"  parameters:"Kaya"}}
+09-07-2025 09:31:46.085 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ayse.kaya@example.com\" e-posta girilir"}
+09-07-2025 09:31:46.085 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<ayse.kaya@example.com> e-posta girilir"  parameters:"ayse.kaya@example.com"}}
+09-07-2025 09:31:46.086 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Cinsiyet olarak \"Female\" seçilir"}
+09-07-2025 09:31:46.086 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Cinsiyet olarak {} seçilir"  parameterizedStepValue:"Cinsiyet olarak <Female> seçilir"  parameters:"Female"}}
+09-07-2025 09:31:46.112 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"5551234567\" telefon numarası girilir"}
+09-07-2025 09:31:46.112 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} telefon numarası girilir"  parameterizedStepValue:"<5551234567> telefon numarası girilir"  parameters:"5551234567"}}
+09-07-2025 09:34:08.426 [Gauge] [INFO] Initializing concepts cache with 2 concepts
+09-07-2025 09:34:08.426 [Gauge] [DEBUG] Adding concepts from C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\concept\form_dogrulama.cpt
+09-07-2025 09:34:08.426 [Gauge] [DEBUG] Adding concepts from C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\concept\form_dogrulama.cpt
+09-07-2025 09:34:08.427 [Gauge] [INFO] Initializing specs cache with 1 specs
+09-07-2025 09:34:08.427 [Gauge] [DEBUG] Adding specs from C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 09:34:08.427 [Gauge] [INFO] Initializing steps cache with 2 steps
+09-07-2025 09:34:08.427 [Gauge] [INFO] Gauge daemon initialized and listening on port: 55594
+09-07-2025 09:34:08.428 [Gauge] [DEBUG] Watching directory: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs
+09-07-2025 09:34:08.428 [Gauge] [DEBUG] Found 2 files
+09-07-2025 09:34:08.428 [Gauge] [DEBUG] Watching directory: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\concept
+09-07-2025 09:34:08.428 [Gauge] [DEBUG] Found 1 files
+09-07-2025 09:34:13.706 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"https://demoqa.com/automation-practice-form\" adresine gidilir"}
+09-07-2025 09:34:13.706 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adresine gidilir"  parameterizedStepValue:"<https://demoqa.com/automation-practice-form> adresine gidilir"  parameters:"https://demoqa.com/automation-practice-form"}}
+09-07-2025 09:34:13.709 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"'<url>' adresine gidilir"}
+09-07-2025 09:34:13.710 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"'{}' adresine gidilir"  parameterizedStepValue:"'<url>' adresine gidilir"  parameters:"url"}}
+09-07-2025 09:34:13.710 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"'<name>' adı girilir"}
+09-07-2025 09:34:13.710 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"'{}' adı girilir"  parameterizedStepValue:"'<name>' adı girilir"  parameters:"name"}}
+09-07-2025 09:34:13.711 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"'<surname>' soyadı girilir"}
+09-07-2025 09:34:13.711 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"'{}' soyadı girilir"  parameterizedStepValue:"'<surname>' soyadı girilir"  parameters:"surname"}}
+09-07-2025 09:34:13.711 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"'<email>' e-posta girilir"}
+09-07-2025 09:34:13.711 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"'{}' e-posta girilir"  parameterizedStepValue:"'<email>' e-posta girilir"  parameters:"email"}}
+09-07-2025 09:34:13.711 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Cinsiyet olarak '<gender>' seçilir"}
+09-07-2025 09:34:13.711 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Cinsiyet olarak '{}' seçilir"  parameterizedStepValue:"Cinsiyet olarak '<gender>' seçilir"  parameters:"gender"}}
+09-07-2025 09:34:13.711 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"'<phone>' telefon numarası girilir"}
+09-07-2025 09:34:13.711 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"'{}' telefon numarası girilir"  parameterizedStepValue:"'<phone>' telefon numarası girilir"  parameters:"phone"}}
+09-07-2025 09:34:13.711 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Submit butonuna tıklanır"}
+09-07-2025 09:34:13.711 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Submit butonuna tıklanır"  parameterizedStepValue:"Submit butonuna tıklanır"}}
+09-07-2025 09:34:13.711 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"E-posta hata mesajı kontrol edilir"}
+09-07-2025 09:34:13.712 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"E-posta hata mesajı kontrol edilir"  parameterizedStepValue:"E-posta hata mesajı kontrol edilir"}}
+09-07-2025 09:34:13.712 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Başarı popup'ı kontrol edilir"}
+09-07-2025 09:34:13.712 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Başarı popup'ı kontrol edilir"  parameterizedStepValue:"Başarı popup'ı kontrol edilir"}}
+09-07-2025 09:34:13.712 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<Kaya> soyadı girilir"}
+09-07-2025 09:34:13.712 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} soyadı girilir"  parameterizedStepValue:"<Kaya> soyadı girilir"  parameters:"Kaya"}}
+09-07-2025 09:34:13.712 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<ahmet@> e-posta girilir"}
+09-07-2025 09:34:13.712 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<ahmet@> e-posta girilir"  parameters:"ahmet@"}}
+09-07-2025 09:34:13.712 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<https://demoqa.com/automation-practice-form> adresine gidilir"}
+09-07-2025 09:34:13.712 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adresine gidilir"  parameterizedStepValue:"<https://demoqa.com/automation-practice-form> adresine gidilir"  parameters:"https://demoqa.com/automation-practice-form"}}
+09-07-2025 09:34:13.715 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Ahmet\" adı girilir"}
+09-07-2025 09:34:13.715 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<Ahmet> adı girilir"  parameters:"Ahmet"}}
+09-07-2025 09:34:13.720 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Geçerli bilgilerle form doldurma ve gönderme"}
+09-07-2025 09:34:13.722 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Geçerli bilgilerle form doldurma ve gönderme"  parameterizedStepValue:"Geçerli bilgilerle form doldurma ve gönderme"}}
+09-07-2025 09:34:13.722 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Geçersiz e-posta ile form gönderme"}
+09-07-2025 09:34:13.722 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Geçersiz e-posta ile form gönderme"  parameterizedStepValue:"Geçersiz e-posta ile form gönderme"}}
+09-07-2025 09:34:13.723 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Yılmaz\" soyadı girilir"}
+09-07-2025 09:34:13.724 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} soyadı girilir"  parameterizedStepValue:"<Yılmaz> soyadı girilir"  parameters:"Yılmaz"}}
+09-07-2025 09:34:13.725 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ahmet@\" e-posta girilir"}
+09-07-2025 09:34:13.725 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<ahmet@> e-posta girilir"  parameters:"ahmet@"}}
+09-07-2025 09:34:13.726 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Ayşe\" adı girilir"}
+09-07-2025 09:34:13.728 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<Ayşe> adı girilir"  parameters:"Ayşe"}}
+09-07-2025 09:34:13.734 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Kaya\" soyadı girilir"}
+09-07-2025 09:34:13.735 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} soyadı girilir"  parameterizedStepValue:"<Kaya> soyadı girilir"  parameters:"Kaya"}}
+09-07-2025 09:34:13.736 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ayse.kaya@example.com\" e-posta girilir"}
+09-07-2025 09:34:13.736 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<ayse.kaya@example.com> e-posta girilir"  parameters:"ayse.kaya@example.com"}}
+09-07-2025 09:34:13.737 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Cinsiyet olarak \"Female\" seçilir"}
+09-07-2025 09:34:13.737 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Cinsiyet olarak {} seçilir"  parameterizedStepValue:"Cinsiyet olarak <Female> seçilir"  parameters:"Female"}}
+09-07-2025 09:34:13.745 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"5551234567\" telefon numarası girilir"}
+09-07-2025 09:34:13.745 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} telefon numarası girilir"  parameterizedStepValue:"<5551234567> telefon numarası girilir"  parameters:"5551234567"}}
+09-07-2025 09:34:19.698 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"https://demoqa.com/automation-practice-form\" adresine gidilir"}
+09-07-2025 09:34:19.700 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} adresine gidilir"  parameterizedStepValue:"* <https://demoqa.com/automation-practice-form> adresine gidilir"  parameters:"https://demoqa.com/automation-practice-form"}}
+09-07-2025 09:34:19.700 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"Ahmet\" adı girilir"}
+09-07-2025 09:34:19.700 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} adı girilir"  parameterizedStepValue:"* <Ahmet> adı girilir"  parameters:"Ahmet"}}
+09-07-2025 09:34:19.700 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"Kaya\" soyadı girilir"}
+09-07-2025 09:34:19.700 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} soyadı girilir"  parameterizedStepValue:"* <Kaya> soyadı girilir"  parameters:"Kaya"}}
+09-07-2025 09:34:19.701 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"ahmet@example.com\" e-posta girilir"}
+09-07-2025 09:34:19.701 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} e-posta girilir"  parameterizedStepValue:"* <ahmet@example.com> e-posta girilir"  parameters:"ahmet@example.com"}}
+09-07-2025 09:34:19.701 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* Cinsiyet olarak \"Male\" seçilir"}
+09-07-2025 09:34:19.701 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* Cinsiyet olarak {} seçilir"  parameterizedStepValue:"* Cinsiyet olarak <Male> seçilir"  parameters:"Male"}}
+09-07-2025 09:34:19.701 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"5311234567\" telefon numarası girilir"}
+09-07-2025 09:34:19.701 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} telefon numarası girilir"  parameterizedStepValue:"* <5311234567> telefon numarası girilir"  parameters:"5311234567"}}
+09-07-2025 09:34:19.701 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* Submit butonuna tıklanır"}
+09-07-2025 09:34:19.701 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* Submit butonuna tıklanır"  parameterizedStepValue:"* Submit butonuna tıklanır"}}
+09-07-2025 09:34:19.701 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* Başarı popup'ı kontrol edilir"}
+09-07-2025 09:34:19.701 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* Başarı popup'ı kontrol edilir"  parameterizedStepValue:"* Başarı popup'ı kontrol edilir"}}
+09-07-2025 09:34:19.701 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"Mehmet\" adı girilir"}
+09-07-2025 09:34:19.701 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} adı girilir"  parameterizedStepValue:"* <Mehmet> adı girilir"  parameters:"Mehmet"}}
+09-07-2025 09:34:19.702 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"Yılmaz\" soyadı girilir"}
+09-07-2025 09:34:19.702 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} soyadı girilir"  parameterizedStepValue:"* <Yılmaz> soyadı girilir"  parameters:"Yılmaz"}}
+09-07-2025 09:34:19.702 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"mehmet@\" e-posta girilir"}
+09-07-2025 09:34:19.702 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} e-posta girilir"  parameterizedStepValue:"* <mehmet@> e-posta girilir"  parameters:"mehmet@"}}
+09-07-2025 09:34:19.702 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* E-posta hata mesajı kontrol edilir"}
+09-07-2025 09:34:19.702 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* E-posta hata mesajı kontrol edilir"  parameterizedStepValue:"* E-posta hata mesajı kontrol edilir"}}
+09-07-2025 09:39:16.937 [Gauge] [INFO] Initializing concepts cache with 2 concepts
+09-07-2025 09:39:16.937 [Gauge] [DEBUG] Adding concepts from C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\concept\form_dogrulama.cpt
+09-07-2025 09:39:16.937 [Gauge] [DEBUG] Adding concepts from C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\concept\form_dogrulama.cpt
+09-07-2025 09:39:16.938 [Gauge] [INFO] Initializing specs cache with 1 specs
+09-07-2025 09:39:16.938 [Gauge] [DEBUG] Adding specs from C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 09:39:16.938 [Gauge] [INFO] Initializing steps cache with 2 steps
+09-07-2025 09:39:16.938 [Gauge] [INFO] Gauge daemon initialized and listening on port: 55686
+09-07-2025 09:39:16.938 [Gauge] [DEBUG] Watching directory: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs
+09-07-2025 09:39:16.938 [Gauge] [DEBUG] Found 2 files
+09-07-2025 09:39:16.939 [Gauge] [DEBUG] Watching directory: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\concept
+09-07-2025 09:39:16.939 [Gauge] [DEBUG] Found 1 files
+09-07-2025 09:44:48.917 [Gauge] [INFO] Initializing concepts cache with 2 concepts
+09-07-2025 09:44:48.917 [Gauge] [DEBUG] Adding concepts from C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\concept\form_dogrulama.cpt
+09-07-2025 09:44:48.917 [Gauge] [DEBUG] Adding concepts from C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\concept\form_dogrulama.cpt
+09-07-2025 09:44:48.918 [Gauge] [INFO] Initializing specs cache with 1 specs
+09-07-2025 09:44:48.918 [Gauge] [DEBUG] Adding specs from C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 09:44:48.918 [Gauge] [INFO] Initializing steps cache with 2 steps
+09-07-2025 09:44:48.918 [Gauge] [INFO] Gauge daemon initialized and listening on port: 55842
+09-07-2025 09:44:48.919 [Gauge] [DEBUG] Watching directory: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs
+09-07-2025 09:44:48.919 [Gauge] [DEBUG] Found 2 files
+09-07-2025 09:44:48.919 [Gauge] [DEBUG] Watching directory: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\concept
+09-07-2025 09:44:48.919 [Gauge] [DEBUG] Found 1 files
+09-07-2025 09:50:43.154 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Ayşe\" adı girilir"}
+09-07-2025 09:50:43.155 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<Ayşe> adı girilir"  parameters:"Ayşe"}}
+09-07-2025 09:50:43.207 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"'<url>' adresine gidilir"}
+09-07-2025 09:50:43.209 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"'{}' adresine gidilir"  parameterizedStepValue:"'<url>' adresine gidilir"  parameters:"url"}}
+09-07-2025 09:50:43.209 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"'<name>' adı girilir"}
+09-07-2025 09:50:43.209 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"'{}' adı girilir"  parameterizedStepValue:"'<name>' adı girilir"  parameters:"name"}}
+09-07-2025 09:50:43.210 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"'<surname>' soyadı girilir"}
+09-07-2025 09:50:43.210 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"'{}' soyadı girilir"  parameterizedStepValue:"'<surname>' soyadı girilir"  parameters:"surname"}}
+09-07-2025 09:50:43.210 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"'<email>' e-posta girilir"}
+09-07-2025 09:50:43.210 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"'{}' e-posta girilir"  parameterizedStepValue:"'<email>' e-posta girilir"  parameters:"email"}}
+09-07-2025 09:50:43.210 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Cinsiyet olarak '<gender>' seçilir"}
+09-07-2025 09:50:43.210 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Cinsiyet olarak '{}' seçilir"  parameterizedStepValue:"Cinsiyet olarak '<gender>' seçilir"  parameters:"gender"}}
+09-07-2025 09:50:43.211 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"'<phone>' telefon numarası girilir"}
+09-07-2025 09:50:43.211 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"'{}' telefon numarası girilir"  parameterizedStepValue:"'<phone>' telefon numarası girilir"  parameters:"phone"}}
+09-07-2025 09:50:43.211 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Submit butonuna tıklanır"}
+09-07-2025 09:50:43.211 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Submit butonuna tıklanır"  parameterizedStepValue:"Submit butonuna tıklanır"}}
+09-07-2025 09:50:43.211 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"E-posta hata mesajı kontrol edilir"}
+09-07-2025 09:50:43.211 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"E-posta hata mesajı kontrol edilir"  parameterizedStepValue:"E-posta hata mesajı kontrol edilir"}}
+09-07-2025 09:50:43.211 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Başarı popup'ı kontrol edilir"}
+09-07-2025 09:50:43.211 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Başarı popup'ı kontrol edilir"  parameterizedStepValue:"Başarı popup'ı kontrol edilir"}}
+09-07-2025 09:50:43.211 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<Kaya> soyadı girilir"}
+09-07-2025 09:50:43.211 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} soyadı girilir"  parameterizedStepValue:"<Kaya> soyadı girilir"  parameters:"Kaya"}}
+09-07-2025 09:50:43.212 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<ahmet@> e-posta girilir"}
+09-07-2025 09:50:43.212 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<ahmet@> e-posta girilir"  parameters:"ahmet@"}}
+09-07-2025 09:50:43.212 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<https://demoqa.com/automation-practice-form> adresine gidilir"}
+09-07-2025 09:50:43.212 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adresine gidilir"  parameterizedStepValue:"<https://demoqa.com/automation-practice-form> adresine gidilir"  parameters:"https://demoqa.com/automation-practice-form"}}
+09-07-2025 09:50:43.220 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Geçerli bilgilerle form doldurma ve gönderme"}
+09-07-2025 09:50:43.220 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Geçerli bilgilerle form doldurma ve gönderme"  parameterizedStepValue:"Geçerli bilgilerle form doldurma ve gönderme"}}
+09-07-2025 09:50:43.224 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Geçersiz e-posta ile form gönderme"}
+09-07-2025 09:50:43.224 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Geçersiz e-posta ile form gönderme"  parameterizedStepValue:"Geçersiz e-posta ile form gönderme"}}
+09-07-2025 09:50:43.429 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"https://demoqa.com/automation-practice-form\" adresine gidilir"}
+09-07-2025 09:50:43.429 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adresine gidilir"  parameterizedStepValue:"<https://demoqa.com/automation-practice-form> adresine gidilir"  parameters:"https://demoqa.com/automation-practice-form"}}
+09-07-2025 09:50:43.429 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Ahmet\" adı girilir"}
+09-07-2025 09:50:43.431 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<Ahmet> adı girilir"  parameters:"Ahmet"}}
+09-07-2025 09:50:43.452 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Yılmaz\" soyadı girilir"}
+09-07-2025 09:50:43.454 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} soyadı girilir"  parameterizedStepValue:"<Yılmaz> soyadı girilir"  parameters:"Yılmaz"}}
+09-07-2025 09:50:43.454 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ahmet@\" e-posta girilir"}
+09-07-2025 09:50:43.454 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<ahmet@> e-posta girilir"  parameters:"ahmet@"}}
+09-07-2025 09:50:43.464 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Kaya\" soyadı girilir"}
+09-07-2025 09:50:43.464 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} soyadı girilir"  parameterizedStepValue:"<Kaya> soyadı girilir"  parameters:"Kaya"}}
+09-07-2025 09:50:43.465 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ayse.kaya@example.com\" e-posta girilir"}
+09-07-2025 09:50:43.465 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<ayse.kaya@example.com> e-posta girilir"  parameters:"ayse.kaya@example.com"}}
+09-07-2025 09:50:43.465 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Cinsiyet olarak \"Female\" seçilir"}
+09-07-2025 09:50:43.465 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Cinsiyet olarak {} seçilir"  parameterizedStepValue:"Cinsiyet olarak <Female> seçilir"  parameters:"Female"}}
+09-07-2025 09:50:43.473 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"5551234567\" telefon numarası girilir"}
+09-07-2025 09:50:43.473 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} telefon numarası girilir"  parameterizedStepValue:"<5551234567> telefon numarası girilir"  parameters:"5551234567"}}
+09-07-2025 09:50:50.260 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ahmet@example.com\" e-posta girilir"}
+09-07-2025 09:50:50.268 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<ahmet@example.com> e-posta girilir"  parameters:"ahmet@example.com"}}
+09-07-2025 09:50:50.268 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Cinsiyet olarak \"Male\" seçilir"}
+09-07-2025 09:50:50.268 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Cinsiyet olarak {} seçilir"  parameterizedStepValue:"Cinsiyet olarak <Male> seçilir"  parameters:"Male"}}
+09-07-2025 09:50:50.275 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"5311234567\" telefon numarası girilir"}
+09-07-2025 09:50:50.275 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} telefon numarası girilir"  parameterizedStepValue:"<5311234567> telefon numarası girilir"  parameters:"5311234567"}}
+09-07-2025 09:50:50.276 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Mehmet\" adı girilir"}
+09-07-2025 09:50:50.284 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<Mehmet> adı girilir"  parameters:"Mehmet"}}
+09-07-2025 09:50:50.291 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"mehmet@\" e-posta girilir"}
+09-07-2025 09:50:50.291 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<mehmet@> e-posta girilir"  parameters:"mehmet@"}}
+09-07-2025 09:51:31.370 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"https://demoqa.com/automation-practice-form\" adresine gidilir"}
+09-07-2025 09:51:31.370 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} adresine gidilir"  parameterizedStepValue:"* <https://demoqa.com/automation-practice-form> adresine gidilir"  parameters:"https://demoqa.com/automation-practice-form"}}
+09-07-2025 09:51:31.371 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"Ahmet\" adı girilir"}
+09-07-2025 09:51:31.371 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} adı girilir"  parameterizedStepValue:"* <Ahmet> adı girilir"  parameters:"Ahmet"}}
+09-07-2025 09:51:31.371 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"Kaya\" soyadı girilir"}
+09-07-2025 09:51:31.371 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} soyadı girilir"  parameterizedStepValue:"* <Kaya> soyadı girilir"  parameters:"Kaya"}}
+09-07-2025 09:51:31.371 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"ahmet@example.com\" e-posta girilir"}
+09-07-2025 09:51:31.371 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} e-posta girilir"  parameterizedStepValue:"* <ahmet@example.com> e-posta girilir"  parameters:"ahmet@example.com"}}
+09-07-2025 09:51:31.371 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* Cinsiyet olarak \"Male\" seçilir"}
+09-07-2025 09:51:31.371 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* Cinsiyet olarak {} seçilir"  parameterizedStepValue:"* Cinsiyet olarak <Male> seçilir"  parameters:"Male"}}
+09-07-2025 09:51:31.371 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"5311234567\" telefon numarası girilir"}
+09-07-2025 09:51:31.371 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} telefon numarası girilir"  parameterizedStepValue:"* <5311234567> telefon numarası girilir"  parameters:"5311234567"}}
+09-07-2025 09:51:31.372 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* Submit butonuna tıklanır"}
+09-07-2025 09:51:31.372 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* Submit butonuna tıklanır"  parameterizedStepValue:"* Submit butonuna tıklanır"}}
+09-07-2025 09:51:31.372 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* Başarı popup'ı kontrol edilir"}
+09-07-2025 09:51:31.372 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* Başarı popup'ı kontrol edilir"  parameterizedStepValue:"* Başarı popup'ı kontrol edilir"}}
+09-07-2025 09:51:31.372 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"Mehmet\" adı girilir"}
+09-07-2025 09:51:31.372 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} adı girilir"  parameterizedStepValue:"* <Mehmet> adı girilir"  parameters:"Mehmet"}}
+09-07-2025 09:51:31.373 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"Yılmaz\" soyadı girilir"}
+09-07-2025 09:51:31.373 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} soyadı girilir"  parameterizedStepValue:"* <Yılmaz> soyadı girilir"  parameters:"Yılmaz"}}
+09-07-2025 09:51:31.373 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"mehmet@\" e-posta girilir"}
+09-07-2025 09:51:31.373 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} e-posta girilir"  parameterizedStepValue:"* <mehmet@> e-posta girilir"  parameters:"mehmet@"}}
+09-07-2025 09:51:31.373 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* E-posta hata mesajı kontrol edilir"}
+09-07-2025 09:51:31.373 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* E-posta hata mesajı kontrol edilir"  parameterizedStepValue:"* E-posta hata mesajı kontrol edilir"}}
+09-07-2025 10:08:12.115 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Cinsiyet olarak <Male> seçilir"}
+09-07-2025 10:08:12.115 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Cinsiyet olarak {} seçilir"  parameterizedStepValue:"Cinsiyet olarak <Male> seçilir"  parameters:"Male"}}
+09-07-2025 10:08:31.385 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<5311234567> telefon numarası girilir"}
+09-07-2025 10:08:31.385 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} telefon numarası girilir"  parameterizedStepValue:"<5311234567> telefon numarası girilir"  parameters:"5311234567"}}
+09-07-2025 10:08:42.452 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<Mehmet> adı girilir"}
+09-07-2025 10:08:42.452 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<Mehmet> adı girilir"  parameters:"Mehmet"}}
+09-07-2025 13:03:07.962 [Gauge] [INFO] Initializing concepts cache with 2 concepts
+09-07-2025 13:03:07.962 [Gauge] [DEBUG] Adding concepts from C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\concept\form_dogrulama.cpt
+09-07-2025 13:03:07.962 [Gauge] [DEBUG] Adding concepts from C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\concept\form_dogrulama.cpt
+09-07-2025 13:03:07.966 [Gauge] [INFO] Initializing specs cache with 1 specs
+09-07-2025 13:03:07.966 [Gauge] [DEBUG] Adding specs from C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 13:03:07.966 [Gauge] [INFO] Initializing steps cache with 2 steps
+09-07-2025 13:03:07.966 [Gauge] [INFO] Gauge daemon initialized and listening on port: 61742
+09-07-2025 13:03:07.966 [Gauge] [DEBUG] Watching directory: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs
+09-07-2025 13:03:07.966 [Gauge] [DEBUG] Found 2 files
+09-07-2025 13:03:07.966 [Gauge] [DEBUG] Watching directory: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\concept
+09-07-2025 13:03:07.966 [Gauge] [DEBUG] Found 1 files
+09-07-2025 13:10:24.796 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"https://demoqa.com/automation-practice-form\" adresine gidilir"}
+09-07-2025 13:10:24.796 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} adresine gidilir"  parameterizedStepValue:"* <https://demoqa.com/automation-practice-form> adresine gidilir"  parameters:"https://demoqa.com/automation-practice-form"}}
+09-07-2025 13:10:24.801 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"Ahmet\" adı girilir"}
+09-07-2025 13:10:24.801 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} adı girilir"  parameterizedStepValue:"* <Ahmet> adı girilir"  parameters:"Ahmet"}}
+09-07-2025 13:10:24.801 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"Kaya\" soyadı girilir"}
+09-07-2025 13:10:24.801 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} soyadı girilir"  parameterizedStepValue:"* <Kaya> soyadı girilir"  parameters:"Kaya"}}
+09-07-2025 13:10:24.801 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"ahmet@example.com\" e-posta girilir"}
+09-07-2025 13:10:24.801 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} e-posta girilir"  parameterizedStepValue:"* <ahmet@example.com> e-posta girilir"  parameters:"ahmet@example.com"}}
+09-07-2025 13:10:24.802 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* Cinsiyet olarak \"Male\" seçilir"}
+09-07-2025 13:10:24.802 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* Cinsiyet olarak {} seçilir"  parameterizedStepValue:"* Cinsiyet olarak <Male> seçilir"  parameters:"Male"}}
+09-07-2025 13:10:24.802 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"5311234567\" telefon numarası girilir"}
+09-07-2025 13:10:24.802 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} telefon numarası girilir"  parameterizedStepValue:"* <5311234567> telefon numarası girilir"  parameters:"5311234567"}}
+09-07-2025 13:10:24.802 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* Submit butonuna tıklanır"}
+09-07-2025 13:10:24.802 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* Submit butonuna tıklanır"  parameterizedStepValue:"* Submit butonuna tıklanır"}}
+09-07-2025 13:10:24.802 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* Başarı popup'ı kontrol edilir"}
+09-07-2025 13:10:24.802 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* Başarı popup'ı kontrol edilir"  parameterizedStepValue:"* Başarı popup'ı kontrol edilir"}}
+09-07-2025 13:10:24.802 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"Mehmet\" adı girilir"}
+09-07-2025 13:10:24.802 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} adı girilir"  parameterizedStepValue:"* <Mehmet> adı girilir"  parameters:"Mehmet"}}
+09-07-2025 13:10:24.802 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"Yılmaz\" soyadı girilir"}
+09-07-2025 13:10:24.802 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} soyadı girilir"  parameterizedStepValue:"* <Yılmaz> soyadı girilir"  parameters:"Yılmaz"}}
+09-07-2025 13:10:24.803 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"mehmet@\" e-posta girilir"}
+09-07-2025 13:10:24.803 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} e-posta girilir"  parameterizedStepValue:"* <mehmet@> e-posta girilir"  parameters:"mehmet@"}}
+09-07-2025 13:10:24.803 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* E-posta hata mesajı kontrol edilir"}
+09-07-2025 13:10:24.803 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* E-posta hata mesajı kontrol edilir"  parameterizedStepValue:"* E-posta hata mesajı kontrol edilir"}}
+09-07-2025 13:10:24.803 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"https://demoqa.com/automation-practice-form\" adresine gidilir"}
+09-07-2025 13:10:24.803 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adresine gidilir"  parameterizedStepValue:"<https://demoqa.com/automation-practice-form> adresine gidilir"  parameters:"https://demoqa.com/automation-practice-form"}}
+09-07-2025 13:10:24.805 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Ahmet\" adı girilir"}
+09-07-2025 13:10:24.805 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<Ahmet> adı girilir"  parameters:"Ahmet"}}
+09-07-2025 13:10:24.805 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Yılmaz\" soyadı girilir"}
+09-07-2025 13:10:24.805 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} soyadı girilir"  parameterizedStepValue:"<Yılmaz> soyadı girilir"  parameters:"Yılmaz"}}
+09-07-2025 13:10:24.805 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ahmet@\" e-posta girilir"}
+09-07-2025 13:10:24.805 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<ahmet@> e-posta girilir"  parameters:"ahmet@"}}
+09-07-2025 13:10:24.806 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Submit butonuna tıklanır"}
+09-07-2025 13:10:24.806 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Submit butonuna tıklanır"  parameterizedStepValue:"Submit butonuna tıklanır"}}
+09-07-2025 13:10:24.806 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"E-posta hata mesajı kontrol edilir"}
+09-07-2025 13:10:24.806 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"E-posta hata mesajı kontrol edilir"  parameterizedStepValue:"E-posta hata mesajı kontrol edilir"}}
+09-07-2025 13:10:24.806 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Ayşe\" adı girilir"}
+09-07-2025 13:10:24.806 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<Ayşe> adı girilir"  parameters:"Ayşe"}}
+09-07-2025 13:10:24.806 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Kaya\" soyadı girilir"}
+09-07-2025 13:10:24.806 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} soyadı girilir"  parameterizedStepValue:"<Kaya> soyadı girilir"  parameters:"Kaya"}}
+09-07-2025 13:10:24.807 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ayse.kaya@example.com\" e-posta girilir"}
+09-07-2025 13:10:24.807 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<ayse.kaya@example.com> e-posta girilir"  parameters:"ayse.kaya@example.com"}}
+09-07-2025 13:10:24.807 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Cinsiyet olarak \"Female\" seçilir"}
+09-07-2025 13:10:24.807 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Cinsiyet olarak {} seçilir"  parameterizedStepValue:"Cinsiyet olarak <Female> seçilir"  parameters:"Female"}}
+09-07-2025 13:10:24.807 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"5551234567\" telefon numarası girilir"}
+09-07-2025 13:10:24.807 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} telefon numarası girilir"  parameterizedStepValue:"<5551234567> telefon numarası girilir"  parameters:"5551234567"}}
+09-07-2025 13:10:24.807 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Başarı popup'ı kontrol edilir"}
+09-07-2025 13:10:24.807 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Başarı popup'ı kontrol edilir"  parameterizedStepValue:"Başarı popup'ı kontrol edilir"}}
+09-07-2025 13:10:24.807 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"'<url>' adresine gidilir"}
+09-07-2025 13:10:24.807 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"'{}' adresine gidilir"  parameterizedStepValue:"'<url>' adresine gidilir"  parameters:"url"}}
+09-07-2025 13:10:24.817 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"'<name>' adı girilir"}
+09-07-2025 13:10:24.817 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"'{}' adı girilir"  parameterizedStepValue:"'<name>' adı girilir"  parameters:"name"}}
+09-07-2025 13:10:24.820 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"'<surname>' soyadı girilir"}
+09-07-2025 13:10:24.820 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"'{}' soyadı girilir"  parameterizedStepValue:"'<surname>' soyadı girilir"  parameters:"surname"}}
+09-07-2025 13:10:24.825 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"'<email>' e-posta girilir"}
+09-07-2025 13:10:24.825 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"'{}' e-posta girilir"  parameterizedStepValue:"'<email>' e-posta girilir"  parameters:"email"}}
+09-07-2025 13:10:24.827 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Cinsiyet olarak '<gender>' seçilir"}
+09-07-2025 13:10:24.830 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Cinsiyet olarak '{}' seçilir"  parameterizedStepValue:"Cinsiyet olarak '<gender>' seçilir"  parameters:"gender"}}
+09-07-2025 13:10:24.835 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"'<phone>' telefon numarası girilir"}
+09-07-2025 13:10:24.835 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"'{}' telefon numarası girilir"  parameterizedStepValue:"'<phone>' telefon numarası girilir"  parameters:"phone"}}
+09-07-2025 13:10:24.839 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<Kaya> soyadı girilir"}
+09-07-2025 13:10:24.842 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} soyadı girilir"  parameterizedStepValue:"<Kaya> soyadı girilir"  parameters:"Kaya"}}
+09-07-2025 13:10:24.843 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<ahmet@> e-posta girilir"}
+09-07-2025 13:10:24.843 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<ahmet@> e-posta girilir"  parameters:"ahmet@"}}
+09-07-2025 13:10:24.845 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<https://demoqa.com/automation-practice-form> adresine gidilir"}
+09-07-2025 13:10:24.845 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adresine gidilir"  parameterizedStepValue:"<https://demoqa.com/automation-practice-form> adresine gidilir"  parameters:"https://demoqa.com/automation-practice-form"}}
+09-07-2025 13:10:24.847 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Cinsiyet olarak <Male> seçilir"}
+09-07-2025 13:10:24.847 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Cinsiyet olarak {} seçilir"  parameterizedStepValue:"Cinsiyet olarak <Male> seçilir"  parameters:"Male"}}
+09-07-2025 13:10:24.848 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<5311234567> telefon numarası girilir"}
+09-07-2025 13:10:24.849 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} telefon numarası girilir"  parameterizedStepValue:"<5311234567> telefon numarası girilir"  parameters:"5311234567"}}
+09-07-2025 13:10:24.849 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<Mehmet> adı girilir"}
+09-07-2025 13:10:24.849 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<Mehmet> adı girilir"  parameters:"Mehmet"}}
+09-07-2025 13:22:36.004 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<url>\" adresine gidili"}
+09-07-2025 13:22:36.004 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse  messageId:4  error:{error:"String not terminated"}
+09-07-2025 13:22:36.026 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"<url>\" adresine gidilir"}
+09-07-2025 13:22:36.027 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adresine gidilir"  parameterizedStepValue:"<<url>> adresine gidilir"  parameters:"<url>"}}
+09-07-2025 13:22:36.124 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<url>\" adresine gidili"}
+09-07-2025 13:22:36.125 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse  messageId:4  error:{error:"String not terminated"}
+09-07-2025 13:22:43.115 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<url>\" adresine gidili"}
+09-07-2025 13:22:43.115 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse  messageId:4  error:{error:"String not terminated"}
+09-07-2025 13:23:00.105 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<url>\" adresine gidili"}
+09-07-2025 13:23:00.105 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse  messageId:4  error:{error:"String not terminated"}
+09-07-2025 13:29:18.282 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<url>\" adresine gidili"}
+09-07-2025 13:29:18.283 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse  messageId:4  error:{error:"String not terminated"}
+09-07-2025 13:29:32.767 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<url>\" adresine gidili"}
+09-07-2025 13:29:32.768 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse  messageId:4  error:{error:"String not terminated"}
+09-07-2025 13:29:50.192 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<url>\" adresine gidili"}
+09-07-2025 13:29:50.224 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse  messageId:4  error:{error:"String not terminated"}
+09-07-2025 13:29:57.973 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<url>\" adresine gidili"}
+09-07-2025 13:29:57.973 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse  messageId:4  error:{error:"String not terminated"}
+09-07-2025 13:32:59.589 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<url>\" adresine gidili"}
+09-07-2025 13:32:59.589 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse  messageId:4  error:{error:"String not terminated"}
+09-07-2025 13:32:59.594 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<url>\" adresine gidili"}
+09-07-2025 13:32:59.594 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse  messageId:4  error:{error:"String not terminated"}
+09-07-2025 13:44:37.888 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 13:44:37.890 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 13:57:46.311 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"5311234567\" telefon numarası girilir"}
+09-07-2025 13:57:46.311 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} telefon numarası girilir"  parameterizedStepValue:"<5311234567> telefon numarası girilir"  parameters:"5311234567"}}
+09-07-2025 13:57:46.635 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ahmet@example.com\" e-posta girilir"}
+09-07-2025 13:57:46.640 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<ahmet@example.com> e-posta girilir"  parameters:"ahmet@example.com"}}
+09-07-2025 13:57:46.642 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Cinsiyet olarak \"Male\" seçilir"}
+09-07-2025 13:57:46.642 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Cinsiyet olarak {} seçilir"  parameterizedStepValue:"Cinsiyet olarak <Male> seçilir"  parameters:"Male"}}
+09-07-2025 13:57:46.644 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Mehmet\" adı girilir"}
+09-07-2025 13:57:46.644 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<Mehmet> adı girilir"  parameters:"Mehmet"}}
+09-07-2025 13:57:46.645 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"mehmet@\" e-posta girilir"}
+09-07-2025 13:57:46.645 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<mehmet@> e-posta girilir"  parameters:"mehmet@"}}
+09-07-2025 15:50:09.513 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 15:50:09.516 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 15:50:31.661 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Ali\" adı girilir"}
+09-07-2025 15:50:31.661 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<Ali> adı girilir"  parameters:"Ali"}}
+09-07-2025 15:50:34.824 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Demir\" soyadı girilir"}
+09-07-2025 15:50:34.824 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} soyadı girilir"  parameterizedStepValue:"<Demir> soyadı girilir"  parameters:"Demir"}}
+09-07-2025 15:50:37.952 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ali.demir@example.com\" e-posta girilir"}
+09-07-2025 15:50:37.952 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<ali.demir@example.com> e-posta girilir"  parameters:"ali.demir@example.com"}}
+09-07-2025 15:50:54.056 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"5320000000\" telefon numarası girilir"}
+09-07-2025 15:50:54.058 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} telefon numarası girilir"  parameterizedStepValue:"<5320000000> telefon numarası girilir"  parameters:"5320000000"}}
+09-07-2025 15:51:15.215 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 15:51:15.216 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 15:51:15.799 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 15:51:15.800 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 15:51:50.497 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Elif\" adı girilir"}
+09-07-2025 15:51:50.497 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<Elif> adı girilir"  parameters:"Elif"}}
+09-07-2025 15:51:57.335 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:51:57.335 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:51:57.347 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:51:57.347 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:51:57.376 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Geçerli bilgilerle form doldurma ve gönderme"}
+09-07-2025 15:51:57.376 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Geçerli bilgilerle form doldurma ve gönderme"  parameterizedStepValue:"Geçerli bilgilerle form doldurma ve gönderme"}}
+09-07-2025 15:51:57.376 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:51:57.376 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:51:57.376 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Geçersiz e-posta ile form gönderme"}
+09-07-2025 15:51:57.376 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Geçersiz e-posta ile form gönderme"  parameterizedStepValue:"Geçersiz e-posta ile form gönderme"}}
+09-07-2025 15:51:57.376 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:51:57.376 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:51:57.376 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:51:57.376 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:51:57.377 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:51:57.377 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:51:57.384 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:51:57.384 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:51:57.384 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:51:57.384 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:51:57.385 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:51:57.385 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:51:57.385 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:51:57.385 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:51:57.639 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:51:57.639 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:52:01.016 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:52:01.016 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:52:01.017 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:52:01.017 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:52:01.024 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:52:01.024 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:52:01.024 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:52:01.024 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:52:01.025 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:52:01.025 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:52:01.025 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:52:01.025 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:52:01.033 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:52:01.033 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:52:01.033 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:52:01.033 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:52:01.033 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:52:01.033 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:52:01.033 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:52:01.033 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:52:01.786 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:52:01.786 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:52:01.787 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:52:01.787 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:52:01.799 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:52:01.800 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:52:01.800 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:52:01.800 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:52:01.800 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:52:01.800 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:52:01.801 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:52:01.801 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:52:01.808 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:52:01.808 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:52:01.808 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+09-07-2025 15:52:01.808 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+09-07-2025 15:52:07.987 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Çetin\" soyadı girilir"}
+09-07-2025 15:52:07.988 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} soyadı girilir"  parameterizedStepValue:"<Çetin> soyadı girilir"  parameters:"Çetin"}}
+09-07-2025 15:52:11.891 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"elif.cetin@example.com\" e-posta girilir"}
+09-07-2025 15:52:11.891 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<elif.cetin@example.com> e-posta girilir"  parameters:"elif.cetin@example.com"}}
+09-07-2025 15:52:20.638 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"5112223344\" telefon numarası girilir"}
+09-07-2025 15:52:20.638 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} telefon numarası girilir"  parameterizedStepValue:"<5112223344> telefon numarası girilir"  parameters:"5112223344"}}
+09-07-2025 15:52:35.840 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 15:52:35.842 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 15:53:17.461 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Merve\" adı girilir"}
+09-07-2025 15:53:17.461 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<Merve> adı girilir"  parameters:"Merve"}}
+09-07-2025 15:53:20.477 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Aydın\" soyadı girilir"}
+09-07-2025 15:53:20.477 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} soyadı girilir"  parameterizedStepValue:"<Aydın> soyadı girilir"  parameters:"Aydın"}}
+09-07-2025 15:53:24.989 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"merve.aydin@gmail.com\" e-posta girilir"}
+09-07-2025 15:53:24.989 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<merve.aydin@gmail.com> e-posta girilir"  parameters:"merve.aydin@gmail.com"}}
+09-07-2025 15:53:36.723 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"5500000011\" telefon numarası girilir"}
+09-07-2025 15:53:36.723 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} telefon numarası girilir"  parameterizedStepValue:"<5500000011> telefon numarası girilir"  parameters:"5500000011"}}
+09-07-2025 15:53:55.035 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 15:53:55.037 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 15:54:09.898 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 15:54:09.907 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 15:54:35.018 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Vural\" soyadı girilir"}
+09-07-2025 15:54:35.018 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} soyadı girilir"  parameterizedStepValue:"<Vural> soyadı girilir"  parameters:"Vural"}}
+09-07-2025 15:54:39.512 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ali.vural@example.com\" e-posta girilir"}
+09-07-2025 15:54:39.513 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<ali.vural@example.com> e-posta girilir"  parameters:"ali.vural@example.com"}}
+09-07-2025 15:54:50.508 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Başarı popup'ı görünmemeli, validasyon kontrol edilir"}
+09-07-2025 15:54:50.508 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Başarı popup'ı görünmemeli, validasyon kontrol edilir"  parameterizedStepValue:"Başarı popup'ı görünmemeli, validasyon kontrol edilir"}}
+09-07-2025 15:54:55.989 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 15:54:55.991 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 15:55:51.252 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 15:55:51.254 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 15:55:52.664 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 15:55:52.665 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 15:56:05.360 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Can\" adı girilir"}
+09-07-2025 15:56:05.360 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<Can> adı girilir"  parameters:"Can"}}
+09-07-2025 15:56:08.990 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Tuna\" soyadı girilir"}
+09-07-2025 15:56:08.990 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} soyadı girilir"  parameterizedStepValue:"<Tuna> soyadı girilir"  parameters:"Tuna"}}
+09-07-2025 15:56:12.020 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"can.tuna@example.com\" e-posta girilir"}
+09-07-2025 15:56:12.020 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<can.tuna@example.com> e-posta girilir"  parameters:"can.tuna@example.com"}}
+09-07-2025 15:56:17.479 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"abc5550000\" telefon numarası girilir"}
+09-07-2025 15:56:17.479 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} telefon numarası girilir"  parameterizedStepValue:"<abc5550000> telefon numarası girilir"  parameters:"abc5550000"}}
+09-07-2025 15:56:23.103 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Telefon alanı hata mesajı kontrol edilir"}
+09-07-2025 15:56:23.103 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Telefon alanı hata mesajı kontrol edilir"  parameterizedStepValue:"Telefon alanı hata mesajı kontrol edilir"}}
+09-07-2025 15:56:47.862 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 15:56:47.864 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 15:59:51.898 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 15:59:51.900 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 15:59:52.459 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 15:59:52.460 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:02:30.885 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\tümalanlargeçerli.spec
+09-07-2025 16:02:30.896 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\tümalanlargeçerli.spec
+09-07-2025 16:02:30.898 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\tümalanlargeçerli.spec
+09-07-2025 16:02:56.801 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\tümalanlargeçerli.spec
+09-07-2025 16:02:56.802 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\tümalanlargeçerli.spec
+09-07-2025 16:03:31.063 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\sadecezorunlualanlar.spec
+09-07-2025 16:03:31.072 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\sadecezorunlualanlar.spec
+09-07-2025 16:03:31.074 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\sadecezorunlualanlar.spec
+09-07-2025 16:03:47.842 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\sadecezorunlualanlar.spec
+09-07-2025 16:03:47.844 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\sadecezorunlualanlar.spec
+09-07-2025 16:04:19.040 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\concept\başarıylaformgönderme.spec
+09-07-2025 16:04:19.049 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\concept\başarıylaformgönderme.spec
+09-07-2025 16:04:19.051 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\concept\başarıylaformgönderme.spec
+09-07-2025 16:04:27.631 [Gauge] [DEBUG] Spec file removed: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\concept\başarıylaformgönderme.spec
+09-07-2025 16:04:36.561 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\başarıylagönderme.spec
+09-07-2025 16:04:36.572 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\başarıylagönderme.spec
+09-07-2025 16:04:36.575 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\başarıylagönderme.spec
+09-07-2025 16:05:00.843 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\başarıylagönderme.spec
+09-07-2025 16:05:00.845 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\başarıylagönderme.spec
+09-07-2025 16:05:27.701 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\farklısağlayıcıilebaşarı.spec
+09-07-2025 16:05:27.712 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\farklısağlayıcıilebaşarı.spec
+09-07-2025 16:05:27.714 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\farklısağlayıcıilebaşarı.spec
+09-07-2025 16:05:48.311 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\farklısağlayıcıilebaşarı.spec
+09-07-2025 16:05:48.314 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\farklısağlayıcıilebaşarı.spec
+09-07-2025 16:06:07.823 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\telefonalanıboş.spec
+09-07-2025 16:06:07.835 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\telefonalanıboş.spec
+09-07-2025 16:06:07.837 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\telefonalanıboş.spec
+09-07-2025 16:06:58.509 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\geçersiztelefonnumarası.spec
+09-07-2025 16:06:58.521 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\geçersiztelefonnumarası.spec
+09-07-2025 16:06:58.523 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\geçersiztelefonnumarası.spec
+09-07-2025 16:07:36.936 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\geçersiztelefonnumarası.spec
+09-07-2025 16:07:36.939 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\geçersiztelefonnumarası.spec
+09-07-2025 16:07:54.107 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"123@!\" adı girilir"}
+09-07-2025 16:07:54.107 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<123@!> adı girilir"  parameters:"123@!"}}
+09-07-2025 16:08:03.888 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"test@example.com\" e-posta girilir"}
+09-07-2025 16:08:03.888 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<test@example.com> e-posta girilir"  parameters:"test@example.com"}}
+09-07-2025 16:08:10.833 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"5321002003\" telefon numarası girilir"}
+09-07-2025 16:08:10.833 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} telefon numarası girilir"  parameterizedStepValue:"<5321002003> telefon numarası girilir"  parameters:"5321002003"}}
+09-07-2025 16:08:18.247 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Ad alanı hata mesajı (veya engelleme) kontrol edilir"}
+09-07-2025 16:08:18.247 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Ad alanı hata mesajı (veya engelleme) kontrol edilir"  parameterizedStepValue:"Ad alanı hata mesajı (veya engelleme) kontrol edilir"}}
+09-07-2025 16:08:52.915 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\isimgeçersizkarakter.spec
+09-07-2025 16:08:52.925 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\isimgeçersizkarakter.spec
+09-07-2025 16:08:52.928 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\isimgeçersizkarakter.spec
+09-07-2025 16:09:03.195 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\isimgeçersizkarakter.spec
+09-07-2025 16:09:03.198 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\isimgeçersizkarakter.spec
+09-07-2025 16:09:03.642 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\isimgeçersizkarakter.spec
+09-07-2025 16:09:03.646 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\isimgeçersizkarakter.spec
+09-07-2025 16:09:28.084 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\telefonalanıboş.spec
+09-07-2025 16:09:28.087 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\telefonalanıboş.spec
+09-07-2025 16:09:28.094 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\isimgeçersizkarakter.spec
+09-07-2025 16:09:28.096 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\isimgeçersizkarakter.spec
+09-07-2025 16:09:28.101 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:09:28.103 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:37:23.442 [Gauge] [INFO] Initializing concepts cache with 2 concepts
+09-07-2025 16:37:23.443 [Gauge] [DEBUG] Adding concepts from C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\concept\form_dogrulama.cpt
+09-07-2025 16:37:23.443 [Gauge] [DEBUG] Adding concepts from C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\concept\form_dogrulama.cpt
+09-07-2025 16:37:23.444 [Gauge] [INFO] Initializing specs cache with 8 specs
+09-07-2025 16:37:23.444 [Gauge] [DEBUG] Adding specs from C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\başarıylagönderme.spec
+09-07-2025 16:37:23.444 [Gauge] [DEBUG] Adding specs from C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\farklısağlayıcıilebaşarı.spec
+09-07-2025 16:37:23.444 [Gauge] [DEBUG] Adding specs from C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\geçersiztelefonnumarası.spec
+09-07-2025 16:37:23.444 [Gauge] [DEBUG] Adding specs from C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\isimgeçersizkarakter.spec
+09-07-2025 16:37:23.444 [Gauge] [DEBUG] Adding specs from C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\sadecezorunlualanlar.spec
+09-07-2025 16:37:23.444 [Gauge] [DEBUG] Adding specs from C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\telefonalanıboş.spec
+09-07-2025 16:37:23.444 [Gauge] [DEBUG] Adding specs from C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\tümalanlargeçerli.spec
+09-07-2025 16:37:23.444 [Gauge] [DEBUG] Adding specs from C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:37:23.444 [Gauge] [INFO] Initializing steps cache with 9 steps
+09-07-2025 16:37:23.444 [Gauge] [INFO] Gauge daemon initialized and listening on port: 53879
+09-07-2025 16:37:23.445 [Gauge] [DEBUG] Watching directory: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs
+09-07-2025 16:37:23.446 [Gauge] [DEBUG] Found 9 files
+09-07-2025 16:37:23.446 [Gauge] [DEBUG] Watching directory: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\concept
+09-07-2025 16:37:23.446 [Gauge] [DEBUG] Found 1 files
+09-07-2025 16:37:28.866 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"https://demoqa.com/automation-practice-form\" adresine gidilir"}
+09-07-2025 16:37:28.866 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adresine gidilir"  parameterizedStepValue:"<https://demoqa.com/automation-practice-form> adresine gidilir"  parameters:"https://demoqa.com/automation-practice-form"}}
+09-07-2025 16:37:28.873 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"'<url>' adresine gidilir"}
+09-07-2025 16:37:28.873 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"'{}' adresine gidilir"  parameterizedStepValue:"'<url>' adresine gidilir"  parameters:"url"}}
+09-07-2025 16:37:28.873 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"'<name>' adı girilir"}
+09-07-2025 16:37:28.874 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"'{}' adı girilir"  parameterizedStepValue:"'<name>' adı girilir"  parameters:"name"}}
+09-07-2025 16:37:28.874 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"'<surname>' soyadı girilir"}
+09-07-2025 16:37:28.874 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"'{}' soyadı girilir"  parameterizedStepValue:"'<surname>' soyadı girilir"  parameters:"surname"}}
+09-07-2025 16:37:28.874 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"'<email>' e-posta girilir"}
+09-07-2025 16:37:28.874 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"'{}' e-posta girilir"  parameterizedStepValue:"'<email>' e-posta girilir"  parameters:"email"}}
+09-07-2025 16:37:28.874 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Cinsiyet olarak '<gender>' seçilir"}
+09-07-2025 16:37:28.874 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Cinsiyet olarak '{}' seçilir"  parameterizedStepValue:"Cinsiyet olarak '<gender>' seçilir"  parameters:"gender"}}
+09-07-2025 16:37:28.875 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"'<phone>' telefon numarası girilir"}
+09-07-2025 16:37:28.875 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"'{}' telefon numarası girilir"  parameterizedStepValue:"'<phone>' telefon numarası girilir"  parameters:"phone"}}
+09-07-2025 16:37:28.875 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Submit butonuna tıklanır"}
+09-07-2025 16:37:28.875 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Submit butonuna tıklanır"  parameterizedStepValue:"Submit butonuna tıklanır"}}
+09-07-2025 16:37:28.875 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"E-posta hata mesajı kontrol edilir"}
+09-07-2025 16:37:28.875 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"E-posta hata mesajı kontrol edilir"  parameterizedStepValue:"E-posta hata mesajı kontrol edilir"}}
+09-07-2025 16:37:28.875 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Başarı popup'ı kontrol edilir"}
+09-07-2025 16:37:28.875 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Başarı popup'ı kontrol edilir"  parameterizedStepValue:"Başarı popup'ı kontrol edilir"}}
+09-07-2025 16:37:28.875 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<Kaya> soyadı girilir"}
+09-07-2025 16:37:28.875 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} soyadı girilir"  parameterizedStepValue:"<Kaya> soyadı girilir"  parameters:"Kaya"}}
+09-07-2025 16:37:28.876 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<ahmet@> e-posta girilir"}
+09-07-2025 16:37:28.876 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<ahmet@> e-posta girilir"  parameters:"ahmet@"}}
+09-07-2025 16:37:28.876 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<https://demoqa.com/automation-practice-form> adresine gidilir"}
+09-07-2025 16:37:28.876 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adresine gidilir"  parameterizedStepValue:"<https://demoqa.com/automation-practice-form> adresine gidilir"  parameters:"https://demoqa.com/automation-practice-form"}}
+09-07-2025 16:37:28.878 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Elif\" adı girilir"}
+09-07-2025 16:37:28.878 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<Elif> adı girilir"  parameters:"Elif"}}
+09-07-2025 16:37:28.881 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Cinsiyet olarak <Male> seçilir"}
+09-07-2025 16:37:28.881 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Cinsiyet olarak {} seçilir"  parameterizedStepValue:"Cinsiyet olarak <Male> seçilir"  parameters:"Male"}}
+09-07-2025 16:37:28.882 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<5311234567> telefon numarası girilir"}
+09-07-2025 16:37:28.882 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} telefon numarası girilir"  parameterizedStepValue:"<5311234567> telefon numarası girilir"  parameters:"5311234567"}}
+09-07-2025 16:37:28.882 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<Mehmet> adı girilir"}
+09-07-2025 16:37:28.882 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<Mehmet> adı girilir"  parameters:"Mehmet"}}
+09-07-2025 16:37:28.883 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Çetin\" soyadı girilir"}
+09-07-2025 16:37:28.883 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} soyadı girilir"  parameterizedStepValue:"<Çetin> soyadı girilir"  parameters:"Çetin"}}
+09-07-2025 16:37:28.886 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"elif.cetin@example.com\" e-posta girilir"}
+09-07-2025 16:37:28.886 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<elif.cetin@example.com> e-posta girilir"  parameters:"elif.cetin@example.com"}}
+09-07-2025 16:37:28.888 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Cinsiyet olarak \"Female\" seçilir"}
+09-07-2025 16:37:28.888 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Cinsiyet olarak {} seçilir"  parameterizedStepValue:"Cinsiyet olarak <Female> seçilir"  parameters:"Female"}}
+09-07-2025 16:37:28.891 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"5112223344\" telefon numarası girilir"}
+09-07-2025 16:37:28.891 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} telefon numarası girilir"  parameterizedStepValue:"<5112223344> telefon numarası girilir"  parameters:"5112223344"}}
+09-07-2025 16:47:34.791 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Ahmet\" adı girilir"}
+09-07-2025 16:47:34.791 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<Ahmet> adı girilir"  parameters:"Ahmet"}}
+09-07-2025 16:47:34.793 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Yılmaz\" soyadı girilir"}
+09-07-2025 16:47:34.793 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} soyadı girilir"  parameterizedStepValue:"<Yılmaz> soyadı girilir"  parameters:"Yılmaz"}}
+09-07-2025 16:47:34.793 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ahmet@\" e-posta girilir"}
+09-07-2025 16:47:34.795 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<ahmet@> e-posta girilir"  parameters:"ahmet@"}}
+09-07-2025 16:47:46.967 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Merve\" adı girilir"}
+09-07-2025 16:47:46.969 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<Merve> adı girilir"  parameters:"Merve"}}
+09-07-2025 16:47:46.969 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Aydın\" soyadı girilir"}
+09-07-2025 16:47:46.970 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} soyadı girilir"  parameterizedStepValue:"<Aydın> soyadı girilir"  parameters:"Aydın"}}
+09-07-2025 16:47:46.971 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"merve.aydin@gmail.com\" e-posta girilir"}
+09-07-2025 16:47:46.971 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<merve.aydin@gmail.com> e-posta girilir"  parameters:"merve.aydin@gmail.com"}}
+09-07-2025 16:47:46.971 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"5500000011\" telefon numarası girilir"}
+09-07-2025 16:47:46.972 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} telefon numarası girilir"  parameterizedStepValue:"<5500000011> telefon numarası girilir"  parameters:"5500000011"}}
+09-07-2025 16:47:50.809 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:47:50.811 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:47:51.349 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:47:51.350 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:47:55.453 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Can\" adı girilir"}
+09-07-2025 16:47:55.453 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<Can> adı girilir"  parameters:"Can"}}
+09-07-2025 16:47:55.454 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Tuna\" soyadı girilir"}
+09-07-2025 16:47:55.454 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} soyadı girilir"  parameterizedStepValue:"<Tuna> soyadı girilir"  parameters:"Tuna"}}
+09-07-2025 16:47:55.456 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"can.tuna@example.com\" e-posta girilir"}
+09-07-2025 16:47:55.456 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<can.tuna@example.com> e-posta girilir"  parameters:"can.tuna@example.com"}}
+09-07-2025 16:47:55.457 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Cinsiyet olarak \"Male\" seçilir"}
+09-07-2025 16:47:55.457 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Cinsiyet olarak {} seçilir"  parameterizedStepValue:"Cinsiyet olarak <Male> seçilir"  parameters:"Male"}}
+09-07-2025 16:47:55.458 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"abc5550000\" telefon numarası girilir"}
+09-07-2025 16:47:55.458 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} telefon numarası girilir"  parameterizedStepValue:"<abc5550000> telefon numarası girilir"  parameters:"abc5550000"}}
+09-07-2025 16:47:55.458 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Telefon alanı hata mesajı kontrol edilir"}
+09-07-2025 16:47:55.458 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Telefon alanı hata mesajı kontrol edilir"  parameterizedStepValue:"Telefon alanı hata mesajı kontrol edilir"}}
+09-07-2025 16:47:55.468 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Başarı popup'ı görünmemeli, validasyon kontrol edilir"}
+09-07-2025 16:47:55.468 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Başarı popup'ı görünmemeli, validasyon kontrol edilir"  parameterizedStepValue:"Başarı popup'ı görünmemeli, validasyon kontrol edilir"}}
+09-07-2025 16:48:01.364 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:48:01.365 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:48:01.863 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:48:01.864 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:48:05.271 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"123@!\" adı girilir"}
+09-07-2025 16:48:05.271 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<123@!> adı girilir"  parameters:"123@!"}}
+09-07-2025 16:48:05.272 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"test@example.com\" e-posta girilir"}
+09-07-2025 16:48:05.272 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<test@example.com> e-posta girilir"  parameters:"test@example.com"}}
+09-07-2025 16:48:05.272 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"5321002003\" telefon numarası girilir"}
+09-07-2025 16:48:05.272 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} telefon numarası girilir"  parameterizedStepValue:"<5321002003> telefon numarası girilir"  parameters:"5321002003"}}
+09-07-2025 16:48:05.272 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Ad alanı hata mesajı (veya engelleme) kontrol edilir"}
+09-07-2025 16:48:05.272 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Ad alanı hata mesajı (veya engelleme) kontrol edilir"  parameterizedStepValue:"Ad alanı hata mesajı (veya engelleme) kontrol edilir"}}
+09-07-2025 16:48:10.025 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:48:10.027 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:48:10.204 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:48:10.207 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:48:23.358 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Ali\" adı girilir"}
+09-07-2025 16:48:23.358 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<Ali> adı girilir"  parameters:"Ali"}}
+09-07-2025 16:48:23.358 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Demir\" soyadı girilir"}
+09-07-2025 16:48:23.358 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} soyadı girilir"  parameterizedStepValue:"<Demir> soyadı girilir"  parameters:"Demir"}}
+09-07-2025 16:48:23.360 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ali.demir@example.com\" e-posta girilir"}
+09-07-2025 16:48:23.360 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<ali.demir@example.com> e-posta girilir"  parameters:"ali.demir@example.com"}}
+09-07-2025 16:48:23.361 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"5320000000\" telefon numarası girilir"}
+09-07-2025 16:48:23.361 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} telefon numarası girilir"  parameterizedStepValue:"<5320000000> telefon numarası girilir"  parameters:"5320000000"}}
+09-07-2025 16:48:27.245 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:48:27.247 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:48:27.474 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:48:27.477 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:48:31.773 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Vural\" soyadı girilir"}
+09-07-2025 16:48:31.774 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} soyadı girilir"  parameterizedStepValue:"<Vural> soyadı girilir"  parameters:"Vural"}}
+09-07-2025 16:48:31.774 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ali.vural@example.com\" e-posta girilir"}
+09-07-2025 16:48:31.774 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<ali.vural@example.com> e-posta girilir"  parameters:"ali.vural@example.com"}}
+09-07-2025 16:48:35.588 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:48:35.589 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:48:35.714 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:48:35.715 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:48:38.439 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Ayşe\" adı girilir"}
+09-07-2025 16:48:38.439 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<Ayşe> adı girilir"  parameters:"Ayşe"}}
+09-07-2025 16:48:38.440 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Kaya\" soyadı girilir"}
+09-07-2025 16:48:38.440 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} soyadı girilir"  parameterizedStepValue:"<Kaya> soyadı girilir"  parameters:"Kaya"}}
+09-07-2025 16:48:38.441 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ayse.kaya@example.com\" e-posta girilir"}
+09-07-2025 16:48:38.441 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<ayse.kaya@example.com> e-posta girilir"  parameters:"ayse.kaya@example.com"}}
+09-07-2025 16:48:38.441 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"5551234567\" telefon numarası girilir"}
+09-07-2025 16:48:38.441 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} telefon numarası girilir"  parameterizedStepValue:"<5551234567> telefon numarası girilir"  parameters:"5551234567"}}
+09-07-2025 16:48:43.948 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:48:43.949 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:48:44.262 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:48:44.263 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:48:59.024 [Gauge] [DEBUG] Spec file removed: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\başarıylagönderme.spec
+09-07-2025 16:49:03.288 [Gauge] [DEBUG] Spec file removed: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\farklısağlayıcıilebaşarı.spec
+09-07-2025 16:49:06.650 [Gauge] [DEBUG] Spec file removed: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\geçersiztelefonnumarası.spec
+09-07-2025 16:49:11.215 [Gauge] [DEBUG] Spec file removed: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\isimgeçersizkarakter.spec
+09-07-2025 16:49:14.026 [Gauge] [DEBUG] Spec file removed: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\sadecezorunlualanlar.spec
+09-07-2025 16:49:17.149 [Gauge] [DEBUG] Spec file removed: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\telefonalanıboş.spec
+09-07-2025 16:49:21.444 [Gauge] [DEBUG] Spec file removed: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\tümalanlargeçerli.spec
+09-07-2025 16:49:25.331 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:49:25.332 [Gauge] [DEBUG] Spec file added / modified: C:\Users\sevda\OneDrive\Masaüstü\DemoQa Otomasyon Testleri denemeleri\formdogrulamaotomasyon\specs\form_dogrulama.spec
+09-07-2025 16:50:46.148 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"5311234567\" telefon numarası girilir"}
+09-07-2025 16:50:46.149 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} telefon numarası girilir"  parameterizedStepValue:"<5311234567> telefon numarası girilir"  parameters:"5311234567"}}
+09-07-2025 16:50:46.452 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ahmet@example.com\" e-posta girilir"}
+09-07-2025 16:50:46.453 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<ahmet@example.com> e-posta girilir"  parameters:"ahmet@example.com"}}
+09-07-2025 16:50:46.453 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"Mehmet\" adı girilir"}
+09-07-2025 16:50:46.453 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} adı girilir"  parameterizedStepValue:"<Mehmet> adı girilir"  parameters:"Mehmet"}}
+09-07-2025 16:50:46.454 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"mehmet@\" e-posta girilir"}
+09-07-2025 16:50:46.454 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} e-posta girilir"  parameterizedStepValue:"<mehmet@> e-posta girilir"  parameters:"mehmet@"}}

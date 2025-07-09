@@ -1,0 +1,22 @@
+# Geçerli bilgilerle form doldurma ve gönderme
+
+* "https://demoqa.com/automation-practice-form" adresine gidilir
+* "Ahmet" adı girilir
+* "Kaya" soyadı girilir
+* "ahmet@example.com" e-posta girilir
+* Cinsiyet olarak "Male" seçilir
+* "5311234567" telefon numarası girilir
+* Submit butonuna tıklanır
+* Başarı popup'ı kontrol edilir
+
+
+# Geçersiz e-posta ile form gönderme
+
+* "https://demoqa.com/automation-practice-form" adresine gidilir
+* "Mehmet" adı girilir
+* "Yılmaz" soyadı girilir
+* "mehmet@" e-posta girilir
+* Cinsiyet olarak "Male" seçilir
+* "5311234567" telefon numarası girilir
+* Submit butonuna tıklanır
+* E-posta hata mesajı kontrol edilir

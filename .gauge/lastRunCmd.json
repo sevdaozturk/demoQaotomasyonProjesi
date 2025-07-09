@@ -1,0 +1,8 @@
+[
+	"C:\\Program Files\\gauge\\bin\\gauge.exe",
+	"run",
+	"--machine-readable",
+	"--hide-suggestion",
+	"--simple-console",
+	"C:/Users/sevda/OneDrive/Masaüstü/DemoQa Otomasyon Testleri denemeleri/formdogrulamaotomasyon/specs/form_dogrulama.spec"
+]

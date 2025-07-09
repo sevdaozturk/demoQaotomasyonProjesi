@@ -1,0 +1,18 @@
+{
+	"Args": [
+		"run",
+		"--machine-readable",
+		"--hide-suggestion",
+		"--simple-console"
+	],
+	"FailedItems": [
+		"specs\\form_dogrulama.spec:51",
+		"specs\\form_dogrulama.spec:61",
+		"specs\\form_dogrulama.spec:70",
+		"specs\\form_dogrulama.spec:3",
+		"specs\\form_dogrulama.spec:11",
+		"specs\\form_dogrulama.spec:21",
+		"specs\\form_dogrulama.spec:31",
+		"specs\\form_dogrulama.spec:41"
+	]
+}
